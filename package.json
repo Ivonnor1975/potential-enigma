@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Ivonnor1975/potential-enigma/issues"
   },
-  "homepage": "https://github.com/Ivonnor1975/potential-enigma#readme"
+  "homepage": "https://github.com/Ivonnor1975/potential-enigma#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }

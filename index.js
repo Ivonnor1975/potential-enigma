@@ -56,10 +56,9 @@ const promptProject = () => {
 
 
 // TODO: Create a function to write README file
-//function writeToFile(fileName, data)
 const writeToFile = fileContent => {
     return new Promise((resolve, reject) => {
-      fs.writeFile('./readMe', fileContent, err => {
+      fs.writeFile('./README.md', fileContent, err => {
         if (err) {
           reject(err);
           return;

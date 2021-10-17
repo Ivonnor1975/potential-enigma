@@ -1,20 +1,14 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-//const generateMarkdown = require('./utils/generateMarkdown');
-let questions = [];
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const promptProject = () => {
-    // If there's no 'projects' array property, create one
-      if (!questions) {
-            questions = [];
-      }
-      return inquirer
-      .prompt([
+      return inquirer.prompt([
         {
           type: 'input',
-          name: 'name',
+          name: 'title',
           message: 'What is the name of your project? (Required)',
           validate: nameInput => {
             if (nameInput) {
@@ -58,9 +52,6 @@ const promptProject = () => {
           }
         },
        ])
-      .then(projectData => {
-        questions.push(projectData);
-      })      
   };
 
 
@@ -68,14 +59,14 @@ const promptProject = () => {
 //function writeToFile(fileName, data)
 const writeToFile = fileContent => {
     return new Promise((resolve, reject) => {
-      fs.writeFile('./dist/index.html', fileContent, err => {
+      fs.writeFile('./readMe', fileContent, err => {
         if (err) {
           reject(err);
           return;
         }
         resolve({
           ok: true,
-          message: 'File created!'
+          message: 'File was created!'
         });
       });
     });
@@ -84,13 +75,13 @@ const writeToFile = fileContent => {
 // TODO: Create a function to initialize app
 function init() {
     promptProject()
-    .then(portfolioData => {
-        return generateMarkdown(portfolioData);
-      })
-      .then(fileMarkdown => {
-        return writeToFile(fileMarkdown);
-      })
-      .then(copyFileResponse => {
+    .then(data  = data =>{
+        return generateMarkdown(data)
+    })
+    .then(filemarkdown = filemarkdown =>{
+        return writeToFile(filemarkdown);
+    })
+    .then(copyFileResponse => {
         console.log(copyFileResponse);
       })
       .catch(err => {
@@ -99,5 +90,4 @@ function init() {
 }
 
 // Function call to initialize app
-init();
-
+init()

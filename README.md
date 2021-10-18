@@ -1,6 +1,10 @@
-# Password Generator
+
+  # password generator
+  
   ## Description
-  Generates random password
+  
+  generates random password
+  
   ## Table of Contents
 
   * [Installation](#installation)
@@ -15,18 +19,18 @@
   
   ## Usage
   
-  nmp start
+  hhh
 
   ## License
 
   ## Contributing 
 
-  undefined
+  help
   
   ## Tests
 
   To run tests, run the following command: nmp test
 
-  
+   
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ivonnor@gmail.com. You can find more of my work at [Ivonnor1975](https://github.com/Ivonnor1975) 
+  If you have any questions about the repo, open an issue or contact me directly at ivonor@gmail.com. You can find more of my work at [ivonnor75](https://github.com/ivonnor75) 

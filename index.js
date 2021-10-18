@@ -51,7 +51,7 @@ const promptProject = () => {
           }
         },
         {
-          type: 'choices',
+          type: 'list',
           name: 'license',
           message: 'What Kind of Licence should your project have?',
           choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BDS 3.0', 'None']

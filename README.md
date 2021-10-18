@@ -1,11 +1,12 @@
 
-  # s
+  # X
   
-  
+  ![License](https://img.shields.io/badge/license-MIT-Blue.svg)
+              
 
   ## Description
   
-  s
+  X
   
   ## Table of Contents
 
@@ -17,23 +18,27 @@
   
   ## Installation
 
-  To install necessary dependecies, run the following commands:  
+  To install necessary dependecies, run the following commands:  NMP I
   
   ## Usage
   
-  
+  N
 
   ## License
   
+  This project is licensed under the MIT
+  
+  Link: https://opensource.org/licenses/MIT
+            
    
   ## Contributing 
 
-  
+  H
   
   ## Tests
 
-  To run tests, run the following command: 
+  To run tests, run the following command: TEST
 
    
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at s. You can find more of my work at [as](https://github.com/as) 
+  If you have any questions about the repo, open an issue or contact me directly at ivonnor@GGMAIL.CON. You can find more of my work at [Generate password](https://github.com/Generate password) 

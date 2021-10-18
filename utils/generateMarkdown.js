@@ -26,19 +26,19 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license==="MIT") {
-    return `![License](https://img.shields.io/badge/license-MIT-Blue.svg)
+    return `https://opensource.org/licenses/MIT
             `;
   }
   if (license==="Apache 2.0"){
-    return `![License](https://img.shields.io/badge/License-Apache--2.0-blue)
+    return `https://opensource.org/licenses/Apache-2.0
            `;
   }
   if (license==="GPL 3.0"){
-    return `![License](https://img.shields.io/badge/License-GPL%203.0-green)
+    return `https://opensource.org/licenses/GPL-3.0
     `;
   }
   if (license==="BDS 3.0"){
-    return `![License](https://img.shields.io/badge/License-BDS%203.0-orange)
+    return `https://opensource.org/licenses/BSD-3-Clause
     `;
   }
   if (license==="None") {
@@ -86,6 +86,8 @@ function generateMarkdown(data) {
 
   ## License
   ${renderLicenseSection(license)}
+  
+  Link: ${renderLicenseLink(license)}
    
   ## Contributing 
 
@@ -94,7 +96,6 @@ function generateMarkdown(data) {
   ## Tests
 
   To run tests, run the following command: ${data.test}
-
    
   ## Questions
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.Github}](https://github.com/${data.Github}) 

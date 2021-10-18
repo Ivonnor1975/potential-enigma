@@ -41,11 +41,4 @@
   Submit bugs and feature requests, and help us verify as they are checked in
   Review source code changes
   Review the documentation and make pull requests for anything from typos to additional and new content
-  
-  
-  ## Tests
 
-  To run tests, run the following command: 
-   
-  ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ivonor@hotmail.com. You can find more of my work at [ivonnor1975](https://github.com/ivonnor1975) 

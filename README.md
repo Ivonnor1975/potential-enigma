@@ -1,12 +1,12 @@
 
-  # enigma
+  # Enigma
   
-  ![License](https://img.shields.io/badge/License-Apache--2.0-blue)
-             
+  ![License](https://img.shields.io/badge/License-GPL%203.0-green)
+      
 
   ## Description
   
-  jdhsakjh
+  xus
   
   ## Table of Contents
 
@@ -26,7 +26,7 @@
 
   ## License
   
-  This project is licensed under the Apache 2.0
+  This project is licensed under the GPL 3.0
    
   ## Contributing 
 
@@ -38,4 +38,4 @@
 
    
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at mail. You can find more of my work at [pp](https://github.com/pp) 
+  If you have any questions about the repo, open an issue or contact me directly at ivonnor@gmail.com. You can find more of my work at [Ivonnor1975](https://github.com/Ivonnor1975) 

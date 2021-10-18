@@ -91,7 +91,7 @@ const writeToFile = fileContent => {
         }
         resolve({
           ok: true,
-          message: 'File was created!'
+          message: 'ReadME.md File was created!'
         });
       });
     });

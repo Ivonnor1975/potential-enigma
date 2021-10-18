@@ -6,7 +6,7 @@
 
   ## Description
   
-  This application captures info about a project and generates the ReadME File for the developer
+  This application captures info about a project and generates the ReadME File for the developer. The file is placed on dist folder.
   
   ## Table of Contents
 

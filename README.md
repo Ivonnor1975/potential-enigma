@@ -18,7 +18,11 @@
   
   ## Installation
 
-  To install necessary dependecies, run the following commands:  nmp i
+  To install necessary dependecies, run the following commands: 
+  1. clone repository to local computer
+  2. Install Node,Js
+  3. Run npm install inquirer 
+  4. run node index.js
   
   ## Usage
   

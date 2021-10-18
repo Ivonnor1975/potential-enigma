@@ -17,16 +17,18 @@
   * [Question](#questions)
   
   ## Installation
-
+  This application uses node.js and inquirer modules
+  
   To install necessary dependecies, run the following commands: 
-  1. clone repository to local computer
+  1. Clone repository to local computer
   2. Install Node,Js
   3. Run npm install inquirer 
   4. run node index.js
   
   ## Usage
   
-  This application uses node.js and inquirer modules
+  Answer all questions
+  
 
   ## License
   

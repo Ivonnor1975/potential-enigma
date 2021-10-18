@@ -23,12 +23,14 @@
   1. Clone repository to local computer
   2. Install Node,Js
   3. Run npm install inquirer 
-  4. run node index.js
+  4. Run node index.js
   
   ## Usage
   
-  Answer all questions
+  Answer all questions, then look for the ReadMe.md file on dist folder
   
+  ![image](https://user-images.githubusercontent.com/88918693/137822035-80e4a7c8-6021-497d-83be-72135395bf6f.png)
+
 
   ## License
   

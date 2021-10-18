@@ -1,12 +1,12 @@
 
-  # Enigma
+  # sd
   
-  ![License](https://img.shields.io/badge/License-GPL%203.0-green)
+  ![License](https://img.shields.io/badge/License-BDS%203.0-orange)
       
 
   ## Description
   
-  xus
+  sd
   
   ## Table of Contents
 
@@ -26,7 +26,7 @@
 
   ## License
   
-  This project is licensed under the GPL 3.0
+  This project is licensed under the BDS 3.0
    
   ## Contributing 
 
@@ -38,4 +38,4 @@
 
    
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ivonnor@gmail.com. You can find more of my work at [Ivonnor1975](https://github.com/Ivonnor1975) 
+  If you have any questions about the repo, open an issue or contact me directly at sd. You can find more of my work at [asd](https://github.com/asd) 

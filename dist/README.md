@@ -1,12 +1,12 @@
 
-  # a
+  # Generate ReadMe File
   
-  ![License](https://img.shields.io/badge/License-Apache--2.0-blue)
-             
+  ![License](https://img.shields.io/badge/license-MIT-Blue.svg)
+              
 
   ## Description
   
-  a
+  This application captures info about a project and generates the ReadME File for the developer
   
   ## Table of Contents
 
@@ -22,22 +22,22 @@
   
   ## Usage
   
-  a
+  This application uses node.js and inquirer modules
 
   ## License
   
-  This project is licensed under the Apache 2.0
+  This project is licensed under the MIT
   
-  Link: https://opensource.org/licenses/Apache-2.0
-           
+  Link: https://opensource.org/licenses/MIT
+            
    
   ## Contributing 
 
-  a
+  
   
   ## Tests
 
-  To run tests, run the following command: a
+  To run tests, run the following command: 
    
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at a. You can find more of my work at [a](https://github.com/a) 
+  If you have any questions about the repo, open an issue or contact me directly at ivonor@hotmail.com. You can find more of my work at [ivonnor1975](https://github.com/ivonnor1975) 

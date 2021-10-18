@@ -1,12 +1,12 @@
 
-  # X
+  # Generate ReadMe File
   
   ![License](https://img.shields.io/badge/license-MIT-Blue.svg)
               
 
   ## Description
   
-  X
+  This application captures info about a project and generates the ReadME File for the developer
   
   ## Table of Contents
 
@@ -18,11 +18,11 @@
   
   ## Installation
 
-  To install necessary dependecies, run the following commands:  NMP I
+  To install necessary dependecies, run the following commands:  nmp i
   
   ## Usage
   
-  N
+  This application uses node.js and inquirer modules
 
   ## License
   
@@ -33,12 +33,11 @@
    
   ## Contributing 
 
-  H
+  
   
   ## Tests
 
-  To run tests, run the following command: TEST
-
+  To run tests, run the following command: 
    
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ivonnor@GGMAIL.CON. You can find more of my work at [Generate password](https://github.com/Generate password) 
+  If you have any questions about the repo, open an issue or contact me directly at ivonor@hotmail.com. You can find more of my work at [ivonnor1975](https://github.com/ivonnor1975) 

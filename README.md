@@ -1,9 +1,12 @@
 
-  # password generator
+  # password gen
   
+  ![License](https://img.shields.io/badge/license-MIT-Blue.svg)
+    
+
   ## Description
   
-  generates random password
+  gen pass
   
   ## Table of Contents
 
@@ -19,13 +22,15 @@
   
   ## Usage
   
-  hhh
+  node index
 
   ## License
+  
+    This project is licensed under the MIT
 
   ## Contributing 
 
-  help
+  help with issuesd
   
   ## Tests
 
@@ -33,4 +38,4 @@
 
    
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ivonor@gmail.com. You can find more of my work at [ivonnor75](https://github.com/ivonnor75) 
+  If you have any questions about the repo, open an issue or contact me directly at ivonnor. You can find more of my work at [ivonnor75](https://github.com/ivonnor75) 

@@ -1,7 +1,32 @@
-# Passowrd Generator
+# Password Generator
   ## Description
-  Purpose This project was designed as a homework assignment. It generates a ramdon password. The user can select which criteria to include in it. As well as the length of at least 8 characters and no more than 128 characters for the password. The user needs to confirm whether or not to include lowercase, uppercase, numeric, and/or special characters.
-  ## Built With
-  JavaScript,HTML,CSS
-  ## Website
-  https://ivonnor1975.github.io/Passwordgenerator/
+  Generates random password
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Licence](#license)
+  * [test](#test)
+  * [Question](#questions)
+  
+  ## Installation
+
+  To install necessary dependecies, run the following commands:  nmp i
+  
+  ## Usage
+  
+  nmp start
+
+  ## License
+
+  ## Contributing 
+
+  undefined
+  
+  ## Tests
+
+  To run tests, run the following command: nmp test
+
+  
+  ## Questions
+  If you have any questions about the repo, open an issue or contact me directly at ivonnor@gmail.com. You can find more of my work at [Ivonnor1975](https://github.com/Ivonnor1975) 

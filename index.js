@@ -7,9 +7,27 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const promptProject = () => {
       return inquirer.prompt([
         {
+            type: 'input',
+            name: 'Github',
+            message: "What is your GitHub username? (Required)",
+            validate: GithubInput => {
+              if (GithubInput) {
+                return true;
+              } else {
+                console.log('You need to Github user name!');
+                return false;
+              }
+            }
+          },
+          {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?',
+        },  
+        {
           type: 'input',
           name: 'title',
-          message: 'What is the name of your project? (Required)',
+          message: "What is your project's name? (Required)",
           validate: nameInput => {
             if (nameInput) {
               return true;
@@ -22,7 +40,7 @@ const promptProject = () => {
         {
           type: 'input',
           name: 'description',
-          message: 'Provide a description of the project (Required)',
+          message: 'Please provide a short description of your project (Required)',
           validate: descriptionInput => {
             if (descriptionInput) {
               return true;
@@ -33,25 +51,33 @@ const promptProject = () => {
           }
         },
         {
-          type: 'checkbox',
-          name: 'languages',
-          message: 'What did you this project with? (Check all that apply)',
-          choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+          type: 'choices',
+          name: 'license',
+          message: 'What Kind of Licence should your project have?',
+          choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BDS 3.0', 'None']
         },
         {
-          type: 'input',
-          name: 'link',
-          message: 'Enter the GitHub link to your project. (Required)',
-          validate: linkInput => {
-            if (linkInput) {
-              return true;
-            } else {
-              console.log('You need to enter a project GitHub link!');
-              return false;
-            }
-          }
+            type: 'input',
+            name: 'command',
+            message: 'What command should be run to install dependecies? (nmp i)',
+            
         },
-       ])
+        {
+            type: 'input',
+            name: 'test',
+            message: 'What command should be run to run tests?',
+        },
+        {
+            type: 'input',
+            name: 'repo',
+            message: 'What does the user need to know about using the repo?',
+        },
+        {
+            type: 'input',
+            name: 'contribute',
+            message: 'What does the user need to know about contributing to the repo?',
+        },
+     ])
   };
 
 

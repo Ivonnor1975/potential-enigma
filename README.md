@@ -1,12 +1,12 @@
 
-  # password gen
+  # enigma
   
-  ![License](https://img.shields.io/badge/license-MIT-Blue.svg)
-    
+  ![License](https://img.shields.io/badge/License-Apache--2.0-blue)
+             
 
   ## Description
   
-  gen pass
+  jdhsakjh
   
   ## Table of Contents
 
@@ -18,24 +18,24 @@
   
   ## Installation
 
-  To install necessary dependecies, run the following commands:  nmp i
+  To install necessary dependecies, run the following commands:  
   
   ## Usage
   
-  node index
+  
 
   ## License
   
-    This project is licensed under the MIT
-
+  This project is licensed under the Apache 2.0
+   
   ## Contributing 
 
-  help with issuesd
+  
   
   ## Tests
 
-  To run tests, run the following command: nmp test
+  To run tests, run the following command: 
 
    
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ivonnor. You can find more of my work at [ivonnor75](https://github.com/ivonnor75) 
+  If you have any questions about the repo, open an issue or contact me directly at mail. You can find more of my work at [pp](https://github.com/pp) 

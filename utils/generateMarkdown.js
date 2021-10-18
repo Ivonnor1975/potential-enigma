@@ -1,24 +1,59 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-if (!license) {
-  return '';
+    if (license==="MIT") {
+      return `![License](https://img.shields.io/badge/license-MIT-Blue.svg)
+              `;
+    }
+    if (license==="Apache 2.0"){
+      return `![License](https://img.shields.io/badge/License-Apache--2.0-blue)
+             `;
+    }
+    if (license==="GPL 3.0"){
+      return `![License](https://img.shields.io/badge/License-GPL%203.0-green)
+      `;
+    }
+    if (license==="BDS 3.0"){
+      return `![License](https://img.shields.io/badge/License-BDS%203.0-orange)
+      `;
+    }
+    if (license==="None") {
+      return '';
+    }
 }
-return `![License](https://img.shields.io/badge/license-MIT-Blue.svg)
-    `;
-}
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license==="MIT") {
+    return `![License](https://img.shields.io/badge/license-MIT-Blue.svg)
+            `;
+  }
+  if (license==="Apache 2.0"){
+    return `![License](https://img.shields.io/badge/License-Apache--2.0-blue)
+           `;
+  }
+  if (license==="GPL 3.0"){
+    return `![License](https://img.shields.io/badge/License-GPL%203.0-green)
+    `;
+  }
+  if (license==="BDS 3.0"){
+    return `![License](https://img.shields.io/badge/License-BDS%203.0-orange)
+    `;
+  }
+  if (license==="None") {
+    return '';
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (!license) {
+  if (license==="None") {
     return '';
   }
   return `
-    This project is licensed under the ${license}`;
+  This project is licensed under the ${license}`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -51,7 +86,7 @@ function generateMarkdown(data) {
 
   ## License
   ${renderLicenseSection(license)}
-
+   
   ## Contributing 
 
   ${data.contribute}
